@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+  transition: 0.5s;
+}
+
+.theme-text {
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  position: relative;
+  margin-top: 170px;
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  font-family: Arial;
+  letter-spacing: 15px;
+  font-weight: 550;
+  transition: 0.5s;
+}
+
+.text::before {
+  opacity: 100%;
+}
+
+.text::after {
+  opacity: 0%;
+}
